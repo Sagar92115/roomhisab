@@ -1,4 +1,4 @@
-# 🏠 RoomHisaab (रूम हिसाब)
+# 🏠 RoomHisaab
 
 **RoomHisaab** is a complete, production-ready shared expense management application for bachelors and roommates living together.
 
@@ -37,15 +37,15 @@ room-hisaab/
 
 ## ✨ Key Features
 
-1. **Equal Split Rule (बराबर हिस्सा)**:
+1. **Equal Split Rule **:
    - Every expense is divided equally among all roommates.
    - Exact integer paise calculation guarantees 0% rounding loss.
 
-2. **Hisaab & Settlements (किसको कितना देना है)**:
+2. **Hisaab & Settlements **:
    - Choose any date range (*Today, This Week, This Month, Last Month, Custom Range*).
    - Generates exact settlements with minimized transactions.
 
-3. **UPI Payment & QR Codes (आसान पेमेंट)**:
+3. **UPI Payment & QR Codes **:
    - 1-click UPI deep links to pay directly via GPay / PhonePe / Paytm / BHIM.
    - QR code popup for receiver's QR code.
    - 100% safe: never asks for PIN, OTP, or passwords.
