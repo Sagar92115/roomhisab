@@ -2,38 +2,6 @@
 
 **RoomHisaab** is a complete, production-ready shared expense management application for bachelors and roommates living together.
 
----
-
-## 🚀 How to Run (Direct 1-Click)
-
-### Option 1: Double-click `start.bat`
-Just double-click **`start.bat`** on Windows. It will start the server and automatically open the application in your browser at `http://localhost:5000`.
-
-### Option 2: Terminal / Command Prompt
-```bash
-npm start
-```
-Open **[http://localhost:5000](http://localhost:5000)** in your browser or phone.
-
----
-
-## 📁 Everything in One Single Folder:
-```
-room-hisaab/
-├── index.js          # Main Express server & API entrypoint
-├── routes.js         # API routes (Rooms, Expenses, Hisaab, Settlements)
-├── db.js             # Built-in SQLite database (node:sqlite)
-├── hisaabEngine.js   # Calculation engine & transaction minimizer
-├── test-suite.js     # Automated verification suite
-├── start.bat         # 1-click Windows launcher
-├── package.json      # Dependencies and scripts
-├── public/           # Pre-built full-stack web app UI & assets
-├── src/              # React frontend source code
-├── vite.config.js    # Build & bundler config
-└── README.md         # Documentation
-```
-
----
 
 ## ✨ Key Features
 
