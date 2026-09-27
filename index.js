@@ -53,6 +53,12 @@ app.get('/sitemap.xml', (req, res) => {
 </urlset>`);
 });
 
+// Google Search Console Verification
+app.get('/google3b82a2b02e1744dc.html', (req, res) => {
+  res.type('text/html');
+  res.send('google-site-verification: google3b82a2b02e1744dc.html');
+});
+
 // Serve frontend built assets from ./dist
 const distDir = path.join(__dirname, 'dist');
 app.use(express.static(distDir));
