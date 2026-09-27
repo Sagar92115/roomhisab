@@ -107,21 +107,6 @@ Open [http://localhost:5000](http://localhost:5000) in your browser.
 
 ---
 
-## 🌐 Deployment (24/7 Cloud Hosting)
-
-To deploy the app permanently on [Render](https://render.com) for free:
-
-1. Sign in to **Render.com** with your GitHub account.
-2. Click **New +** ➔ **Web Service**.
-3. Connect repository: `Sagar92115/roomhisab`.
-4. Configure settings:
-   - **Build Command**: `npm install && npm run build`
-   - **Start Command**: `npm start`
-   - **Instance**: Free
-5. Click **Deploy Web Service** to receive your permanent HTTPS URL.
-
----
-
 ## 📂 Repository Structure
 
 ```text
