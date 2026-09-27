@@ -27,6 +27,32 @@ app.get('/api/health', (req, res) => {
   res.json({ status: 'ok', app: 'RoomHisaab', timestamp: new Date().toISOString() });
 });
 
+// SEO: robots.txt
+app.get('/robots.txt', (req, res) => {
+  res.type('text/plain');
+  res.send(`User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /data/
+Disallow: /uploads/
+
+Sitemap: https://roomhisab-m6pm.onrender.com/sitemap.xml`);
+});
+
+// SEO: sitemap.xml
+app.get('/sitemap.xml', (req, res) => {
+  res.type('application/xml');
+  res.send(`<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://roomhisab-m6pm.onrender.com/</loc>
+    <lastmod>${new Date().toISOString().split('T')[0]}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+</urlset>`);
+});
+
 // Serve frontend built assets from ./dist
 const distDir = path.join(__dirname, 'dist');
 app.use(express.static(distDir));

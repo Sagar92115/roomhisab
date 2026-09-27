@@ -114,10 +114,10 @@ export default function WelcomeView({
             ₹
           </div>
           <h1 className="text-2xl sm:text-3xl font-black tracking-tight text-white">
-            RoomHisaab
+            RoomHisaab – Shared Expense Manager for Roommates
           </h1>
-          <p className="text-xs sm:text-sm text-slate-400 max-w-sm mx-auto leading-relaxed">
-            Shared expense management for roommates. No notebooks, equal splits, and 1-click UPI settlements.
+          <p className="text-xs sm:text-sm text-slate-300 max-w-md mx-auto leading-relaxed">
+            Track daily room expenses, split bills equally among roommates and bachelors, calculate your Hisaab and easily settle payments via 1-click UPI.
           </p>
         </div>
 

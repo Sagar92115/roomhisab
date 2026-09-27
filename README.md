@@ -3,7 +3,7 @@
 # 🏠 RoomHisaab (रूम हिसाब)
 **Smart, Simple & Stress-Free Shared Expense Manager for Roommates**
 
-[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Open_RoomHisaab-059669?style=for-the-badge)](https://7f2ba9065061a1.lhr.life)
+[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Open_RoomHisaab-059669?style=for-the-badge)](https://roomhisab-m6pm.onrender.com/)
 [![GitHub Repo](https://img.shields.io/badge/GitHub-Sagar92115%2Froomhisab-181717?style=for-the-badge&logo=github)](https://github.com/Sagar92115/roomhisab)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
@@ -16,7 +16,7 @@
 [![SQLite](https://img.shields.io/badge/SQLite-Built--in_WAL-003B57?logo=sqlite&logoColor=white)](https://sqlite.org/)
 
 <p align="center">
-  <b>🌐 Live App:</b> <a href="https://7f2ba9065061a1.lhr.life">https://7f2ba9065061a1.lhr.life</a>
+  <b>🌐 Live App:</b> <a href="https://roomhisab-m6pm.onrender.com/">https://roomhisab-m6pm.onrender.com/</a>
 </p>
 
 </div>
@@ -132,7 +132,7 @@ roomhisab/
 
 - **Sagar Patel** – [@Sagar92115](https://github.com/Sagar92115)
 - Repository: [https://github.com/Sagar92115/roomhisab](https://github.com/Sagar92115/roomhisab)
-- Live Demo: [https://7f2ba9065061a1.lhr.life](https://7f2ba9065061a1.lhr.life)
+- Live Demo: [https://roomhisab-m6pm.onrender.com/](https://roomhisab-m6pm.onrender.com/)
 
 ---
 <div align="center">
